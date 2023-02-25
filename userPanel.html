@@ -64,7 +64,45 @@
         
 <!-- end navbar  -->
 
+<div class="d-flex justify-content-center">
+    <div class="row row-cols-1 row-cols-md-1 g-1">
+        
+          <div class="card mx-auto m-5">
+            <img src="https://fakeimg.pl/250x200/?text=slide1&font=lobster" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> اطلاعات کاربری </h5>
+              <p> اطلاعات خود را ویرایش کنید یا مشاهده کنید </p>
+              <form method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">آدرس ایمیل</label>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputUsername" class="form-label"> نام کاربری </label>
+                    <input name="username" type="text" class="form-control" id="exampleInputUsername" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputname" class="form-label"> نام و نام خانوداگی </label>
+                    <input name="name" type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputbirthday" class="form-label"> تاریخ تولد </label>
+                    <input name="birthday" type="date" class="form-control" id="exampleInputbirthday" aria-describedby="emailHelp" required>
+                </div>
 
+                <button name="login" type="submit" class="btn btn-primary"> ویرایش اطلاعات </button>
+            </form>
+            <button type="button" class="btn btn-danger m-1"> حذف حساب کاربری </button>
+
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"> تاریخ ایجاد حساب کاربری </small>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      
 
 <!-- start footer -->
 <footer class="bg-light text-lg-start">
